@@ -34,7 +34,7 @@ export default {
   },
   methods: {
     fetchDogs(page=1){
-      fetch(`http://localhost/api/dogs/?page=${page}`, {
+      fetch(`http://localhost/api/listdogs/?page=${page}`, {
         headers: {
           'Content-Type': 'application/json',
           'Authorization': 'Bearer secret'
